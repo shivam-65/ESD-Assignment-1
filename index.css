@@ -1,0 +1,15 @@
+.input-width {
+    width: 500px;
+    margin-top: 10px;
+}
+
+.form {
+    border: 1px solid black;
+    margin: 100px;
+    width: 600px;
+    border-radius: 8px;
+}
+
+span {
+    color: red;
+}
