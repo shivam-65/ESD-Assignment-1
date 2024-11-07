@@ -13,3 +13,88 @@
 span {
     color: red;
 }
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#header a {
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 900;
+    color: red;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: white;
+}
+
+#navbar li a.active {
+    color: red;
+}
+
+#hero {
+
+    padding: 15px 100px;
+    display: flex-start;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+
+#hero p {
+    margin-bottom: 10px;
+}
+
+/* #hero h2{
+    /* padding-bottom: 15px; */
+/* font-size: 30px; */
+/* }*/
+
+
+#hero h1 {
+    color: #088178;
+    /* padding-bottom: 15px; */
+    /* font-size: 30px; */
+}
+
+
+body {
+    background-image: url("food.png");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
