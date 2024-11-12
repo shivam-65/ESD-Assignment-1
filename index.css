@@ -15,11 +15,12 @@ span {
 }
 
 header {
-    background-image: url("food.png");
-    width: 100%;
-    height: 90vh;
+    background-image: url("bg photo.jpg");
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    filter: contrast(90%);
 }
 
 #header {
@@ -36,7 +37,7 @@ header {
 
 #header a {
     text-decoration: none;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 900;
     color: red;
 }
@@ -54,7 +55,7 @@ header {
 
 #navbar li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 900;
     color: rgb(0, 0, 0);
     transition: 0.3s ease;
@@ -65,7 +66,7 @@ header {
 }
 
 #navbar li a.active {
-    color: red;
+    color: rgba(255, 0, 0, 0.871);
 }
 
 #hero {
@@ -75,30 +76,29 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 180px;
 }
 
-#hero h4 {
+#hero h2 {
     padding-bottom: 15px;
-    padding-top: 100px;
+    padding-top: 0px;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(30, 11, 11);
 }
 
 #hero p {
     margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #292424;
 }
 
-/* #hero h2{
-    /* padding-bottom: 15px; */
-/* font-size: 30px; */
-/* }*/
-
-
-#hero h1 {
-    color: #088178;
-    /* padding-bottom: 15px; */
-    /* font-size: 30px; */
+.btn {
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 35px;
 }
-
 
 #product1 {
     text-align: center;
@@ -107,7 +107,7 @@ header {
 #product1 h2 {
     font-size: 46px;
     margin-top: 20px;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 #product1 .pro {
@@ -143,6 +143,8 @@ header {
     width: 100%;
     height: 500px;
     border-radius: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 #product1 .pro .des {
