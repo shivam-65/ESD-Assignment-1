@@ -1,13 +1,22 @@
+* {
+    font-family: "Domine", serif;
+}
+
 .input-width {
     width: 500px;
     margin-top: 10px;
 }
 
 .form {
-    border: 1px solid black;
     margin: 100px;
     width: 600px;
-    border-radius: 8px;
+    color: white;
+    align-items: center;
+}
+
+.form p {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 span {
@@ -62,7 +71,7 @@ header {
 }
 
 #navbar li a:hover {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 #navbar li a.active {
@@ -72,14 +81,13 @@ header {
 #hero {
 
     padding: 15px 100px;
+    margin-top: 180px;
     display: flex-start;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 180px;
 }
 
 #hero h2 {
+    justify-content: center;
     padding-bottom: 15px;
     padding-top: 0px;
     font-size: 50px;
@@ -102,24 +110,30 @@ header {
 
 #product1 {
     text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 #product1 h2 {
     font-size: 46px;
+    font-weight: 800;
     margin-top: 20px;
+    height: 75px;
+    background-color: yellow;
+    padding: 5px;
     color: rgb(0, 0, 0);
 }
 
 #product1 .pro {
-    width: 23%;
-    min-width: 250px;
+    background-color: rgba(237, 237, 11, 0.968);
+    width: 22%;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.162);
-    transition: 0.2s ease;
-    margin: 15px 0;
+    transition: 0.1s ease;
+    margin: 15px 20px;
     position: relative;
 }
 
@@ -136,7 +150,7 @@ header {
 }
 
 #product1 .pro:hover {
-    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+    box-shadow: 20px 20px 30px rgba(185, 31, 31, 0.556);
 }
 
 #product1 .pro img {
@@ -159,7 +173,8 @@ header {
 #product1 .pro .des h5 {
     padding-top: 7px;
     color: #1a1a1a;
-    font-size: 14px;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 #product1 .pro .des i {
@@ -169,7 +184,7 @@ header {
 
 #product1 .pro .des h4 {
     padding-top: 7px;
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 700;
     color: #088178;
 }
@@ -186,4 +201,15 @@ header {
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 204, 0);
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Montserrat-Black', sans-serif;
+    margin-top: 10px;
 }
