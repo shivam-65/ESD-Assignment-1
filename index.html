@@ -4,49 +4,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yummy</title>
+    <title>home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
     <link rel="stylesheet" href="index.css">
 
-    <style>
-        body {
-            background-image: url(login-background.jpg);
-            background-size: cover;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- Navbar -->
+    <header>
+        <div id="header">
+            <!-- <a href="Home.html"><img src="img/logo.png" class="logo" alt="">Yummy</a> -->
+            <a><i class="fa-solid fa-utensils"></i>
+                Yummy</a>
 
-    <center>
-        <div class="form">
-            <form>
-                <h1>Sign Up</h1>
-                <div class="input-width">
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="FullName">
-                </div>
-                <div class="input-width">
-                    <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
-                </div>
-                <div class="input-width">
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                </div>
-                <div class="input-width">
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Confirm Password">
-                </div>
-                <div class="input-width">
-                    <button type="submit" class="btn btn-primary input-width">Create Account</button>
-                </div>
-                <p class="input-width">Already have an account? <span>Log in</span></p>
-            </form>
+            <ul id="navbar">
+                <li><a class="active" href="SignUp.html">HOME</a></li>
+                <li><a href="Shop.html">CART</a></li>
+                <li><a href="#">PROFILE</a></li>
+                <li><a href="SignUp.html">LOGIN</a></li>
+            </ul>
+
         </div>
-    </center>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        <div id="hero">
+            <h2>It's not just food it's an </br><span>Experience!</span></h2>
+            <p>The best delicious food that meet your needs, order now</p>
+            <a href="#product1" <button type="button" class=" btn btn btn-danger">Order Now</button></a>
+        </div>
+    </header>
+
+    <!-- Products -->
+    <section id="product1" class="fe-padding">
+        <h2>Order Fresh Food</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="p1.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <a href="#"><i class="fal fa-shopping-cart cart"></i></a> -->
+
+            <div class="pro">
+                <img src="p2.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="p3.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="p4.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="p5.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="p6.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="p7.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pro">
+                <img src="p8.jpg" alt="">
+                <div class="des">
+                    <h5>Masala Dosa</h5>
+                    <span>Information about Masala Dosa</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="pcart">
+                        <h4>$78</h4>
+                        <button type="button" class="btn btn-danger">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-text">
+            Build by <b>Shivam Padaliya</b>
+        </div>
+    </footer>
+
 </body>
 
 </html>
